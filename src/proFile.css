@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* profile */
+
+.box-area{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+}
+
+.section-profile{
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.section-profile img{
+    width: 200px;
+    border-radius: 100px;
+    margin-left: 20%;
+    transition: .4s;
+}
+
+.section-profile img:hover{
+    transform:scale(1.2,1.2);
+}
+
+.section-text{
+    width: 50%;
+    margin-left: 5%;
+    
+}
+
+.section-text h2{
+    cursor: default;
+}
+
+.section-text p{
+    cursor: default;
+}
+
+.box-menu{
+    width: 60%;
+    height: 30px;
+    margin-left: 20%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-top: 0.5%;
+}
+
+.menu-item{
+    width: 80%;
+    display: flex;
+}
+
+.menu-item p{
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+
+.menu-item p{
+    cursor: default;
+}
+
+.menu-item p:hover{
+    color: rgb(85, 85, 85);
+}
+
+.protosText{
+    width: 15%;
+    margin-left: 1%;
+    margin-top: 0.8%;
+}
+
+.likesText{
+    width: 15%;
+    margin-top: 0.8%; 
+}
+
+
+.colletText{
+    width: 20%;
+    margin-top: 0.8%;
+}
+
+.show-img{
+    width: 60%;
+    margin-top: 0.5%;
+    margin-left: 20%;
+    border: 1px solid silver;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    row-gap: 5px;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.card img{
+    width: 250px;
+    padding-left: 0.5%;
+    transition: .4s;
+}
+
+.card img:hover{
+    transform:scale(1.2,1.2);
+}
